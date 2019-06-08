@@ -198,8 +198,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: 0px 0;
+  max-height: 50px;
 }
 
 .main-pages {
@@ -219,14 +219,16 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  /*color: #413e66;*/
+  color: #0E6880;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #intro .intro-info h2 span {
-  color: #1bb1dc;
+  /*color: #1bb1dc;*/
+  color: #F95E08;
 }
 
 #intro .intro-info .btn-get-started,
