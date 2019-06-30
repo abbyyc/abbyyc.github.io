@@ -208,6 +208,7 @@ h6 {
   margin-top: 60px;
 }
 
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -253,6 +254,30 @@ h6 {
 #intro .intro-info .btn-services:hover {
   background: #0a98c0;
 }
+
+
+/*--------------------------------------------------------------
+# Leads Section
+--------------------------------------------------------------*/
+
+#lead {
+/*
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background-size: cover;
+*/
+
+position: relative;
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 44px 0 22px 0;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -501,6 +526,17 @@ h6 {
   background: #f5f8fd;
 }
 
+/* Leads Section
+--------------------------------*/
+
+.lead {
+  text-align: center;
+}
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+}
+
 /* About Us Section
 --------------------------------*/
 
@@ -639,6 +675,20 @@ h6 {
   line-height: 28px;
   margin-bottom: 0;
   text-align: left;
+}
+
+#services .box .btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: #5f5b96;
+  border-radius: 0;
+  padding: 10px 24px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  display: inline-block;
+  background: #1bb1dc;
+  color: #fff;
 }
 
 /* Why Us Section
