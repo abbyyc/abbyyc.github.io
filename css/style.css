@@ -531,6 +531,9 @@ h6 {
 .section-bg {
   background: #f5f8fd;
 }
+.section-bg-light {
+  background: #218da6;
+}
 
 /* Leads Section
 --------------------------------*/
@@ -615,7 +618,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  /*background-color: #ebf1fa;*/
   transition: .5s;
 }
 
@@ -627,7 +630,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  /*background-color: #ebf1fa;*/
   transition: .5s;
 }
 
@@ -702,6 +705,20 @@ h6 {
   border-radius: 3px;
   display: inline-block;
   background: #1bb1dc;
+  color: #fff;
+}
+
+#services .box .btn-soon {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: #d3d3d3;
+  border-radius: 0;
+  padding: 10px 24px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  display: inline-block;
+  background: #d3d3d3;
   color: #fff;
 }
 
@@ -853,14 +870,14 @@ h6 {
   position: relative;
   margin: 0;
   border-radius: 25px;
-  box-shadow: 5px 5px #d3d3d3;
+  /*box-shadow: 5px 5px #d3d3d3;*/
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
   border-radius: 25px;
-  box-shadow: 5px 5px #d3d3d3;
+  /*box-shadow: 5px 5px #d3d3d3;*/
 
 }
 
