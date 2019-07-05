@@ -4,7 +4,8 @@
   Author: BootstrapMade.com
   License: https://bootstrapmade.com/license/
 */
-
+/* prettyPhoto */
+@import url('prettyPhoto.css');
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -774,6 +775,18 @@ h6 {
   color: #8a87b6;
 }
 
+
+/* test why python */
+
+
+
+
+
+
+
+/* end test why python */
+
+
 /* Call To Action Section
 --------------------------------*/
 
@@ -1110,6 +1123,90 @@ h6 {
   margin: 0 2px;
 }
 
+
+
+/* Why Python Section
+--------------------------------*/
+
+#whypy {
+  padding: 60px 0;
+}
+
+#whypy .member {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#whypy .member .member-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+  padding: 15px 0;
+  background: rgba(29, 28, 41, 0.6);
+}
+
+#whypy .member .member-info-content {
+  transition: margin 0.2s;
+  height: 40px;
+  transition: height 0.4s;
+}
+
+#whypy .member:hover .member-info {
+  transition: 0.4s;
+}
+
+#whypy .member:hover .member-info-content {
+  height: 80px;
+}
+
+#whypy .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#whypy .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+#whypy .member .social {
+  margin-top: 15px;
+}
+
+#whypy .member .social a {
+  transition: none;
+  color: #fff;
+}
+
+#whypy .member .social a:hover {
+  color: #1bb1dc;
+}
+
+#whypy .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
 /* Clients Section
 --------------------------------*/
 
@@ -1306,14 +1403,14 @@ h6 {
 --------------------------------*/
 
 #course {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 #course .container {
-  width: 75%;
+  width: 80%;
 }
 
 #course .course-content {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #course .course-content h2 {
@@ -1325,9 +1422,9 @@ h6 {
   position: relative;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
-  color: #959595;
+  /*color: #959595;*/
 }
 
 #course .course-content h2:after {
@@ -1342,8 +1439,8 @@ h6 {
 #course .course-content h3 {
   position: relative;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 300;
   text-transform: uppercase;
 
 }
@@ -1458,6 +1555,172 @@ h6 {
   transition: .5s;
 }
 */
+
+
+/*---
+
+---*/
+
+/* === section works === */
+
+#works h4 {
+	margin-bottom:20px;
+}
+
+#portfolio {
+	padding-bottom: 0;
+}
+/* === portfolio filter === */
+
+#filters {
+	margin-bottom: 0px;
+	text-align: center;
+	display: block;
+	float: none;
+	z-index: 2;
+	position: relative;
+}
+#filters ul {
+	margin: 0 0 20px;
+	list-style: none;
+	padding: 0;
+}
+#filters ul li {
+	display: inline-block;
+}
+#filters ul li a {
+	display: block;
+	float: left;
+	padding: 2px 5px;
+	color: inherit;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+#filters ul li a:hover,#filters ul li a:focus {
+	text-decoration:none;
+	outline:0;
+}
+#filters ul li a h5 {
+	font-size: 14px;
+	padding: 5px 10px 5px;
+	border: 2px solid #f2f2f2;
+}
+
+#filters ul li a:hover h5, #filters ul li a.active h5 {
+	color:#fcfcfc;
+}
+
+
+
+
+/*timeline*/
+
+#timeline {
+  padding: 80px 0;
+}
+
+#timeline .about-content {
+  padding-top: 40px;
+}
+
+#timeline h2 {
+  color: #413e66;
+  /*font-family: "Montserrat", sans-serif;*/
+  font-weight: 700;
+
+}
+
+#timeline h5 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.blue-bg {
+  /*background-color: #4D4545;*/
+  /*color: #ED8D8D;*/
+  height: 100%;
+}
+
+.circle {
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 50%;
+  background-color: #1bb1dc;/*ED8D8D*/
+  color: #fff;/*4D4545*/
+  max-height: 50px;
+  z-index: 2;
+}
+
+.how-it-works.row {
+  display: flex;
+}
+.how-it-works.row .col-2 {
+  display: inline-flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+}
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #1bb1dc; /*ED8D8D*/
+  z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #1bb1dc;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #1bb1dc;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
 
 /*--------------------------------------------------------------
 # Footer
