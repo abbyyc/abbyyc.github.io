@@ -1301,6 +1301,164 @@ h6 {
   content: "\f2c7" !important;
 }
 
+
+/* Course Section
+--------------------------------*/
+
+#course {
+  padding: 80px 0;
+}
+#course .container {
+  width: 75%;
+}
+
+#course .course-content {
+  padding-top: 40px;
+}
+
+#course .course-content h2 {
+  /*
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  */
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #959595;
+}
+
+#course .course-content h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  border-bottom: 3px solid #e2cef9;
+  width: 30px;
+}
+#course .course-content h3 {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+
+#course .course-content ul {
+  list-style: none;
+  margin: 1em 0 0;
+  padding: 0;
+}
+#course .course-content ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+#course .course-content ul li {
+  margin-bottom: 1em;
+}
+
+#course .course-content ul li h3 {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25em;
+  line-height: 2.5em;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+#course .course-content ul li h3:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background-color: #e2cef9;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+}
+#course .course-content ul li h3 span {
+  padding-left: 15px;
+}
+#course .course-content ul li p {
+  padding-left: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6875em;
+  font-weight: 400;
+  color: #959595;
+}
+
+/*
+
+#course .about-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#course .about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#course .about-content ul li {
+  padding-bottom: 10px;
+}
+
+#course .about-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+
+#course .about-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#course .about-img img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s;
+}
+
+#course .about-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#course .about-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
+#course .about-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+*/
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
