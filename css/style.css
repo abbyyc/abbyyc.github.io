@@ -635,6 +635,59 @@ h6 {
   transition: .5s;
 }
 
+/* About(why coding) Section
+--------------------------------*/
+
+#whycoding {
+  padding: 60px 0;
+}
+
+#whycoding h2 {
+  color: #413e66;
+  /*font-family: "Montserrat", sans-serif;*/
+  font-weight: 700;
+}
+
+#whycoding p {
+  padding-top: 20px;
+}
+/* ==================================================
+  Stats Styling
+================================================== */
+
+.stats-row {
+  margin-top: 65px;
+}
+
+#whycoding .stats-col .circle {
+  display: inline-block;
+  width: 250px;
+  height: 2500px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #666;
+  border: 0px solid #199EB8;
+  /*border-radius: 50%;*/
+  /*padding: 55px 25px 0 25px;*/
+  position: relative;
+}
+
+.stats-col .circle .stats-no {
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  top: -25px;
+  right: -15px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: #E04F00;
+  position: absolute;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+
 /* Services Section
 --------------------------------*/
 
