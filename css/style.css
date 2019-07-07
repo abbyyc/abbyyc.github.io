@@ -640,6 +640,7 @@ h6 {
 
 #whycoding {
   padding: 60px 0;
+
 }
 
 #whycoding h2 {
@@ -651,6 +652,47 @@ h6 {
 #whycoding p {
   padding-top: 20px;
 }
+
+
+#whycoding .box {
+  padding: 30px 20px;
+
+}
+
+#whycoding .box-bg {
+  /*background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);*/
+  border: 1px;
+}
+
+
+#whycoding i {
+  color: #18d26e;
+  font-size: 48px;
+  display: inline-block;
+  line-height: 1;
+}
+
+#whycoding h4 {
+  font-weight: 400;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+#whycoding h4 a {
+  color: #413e66;
+}
+
+#whycoding h4 a:hover {
+  color: #18d26e;
+}
+
+#whycoding p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #413166;
+  margin-bottom: 0;
+}
+
 /* ==================================================
   Stats Styling
 ================================================== */
@@ -890,6 +932,96 @@ h6 {
   font-size: 24px;
 }
 
+/* Featured Services Section
+--------------------------------*/
+
+#featured-services {
+  background: #000;
+}
+
+#featured-services .box {
+  padding: 30px 20px;
+}
+
+#featured-services .box-bg {
+  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+}
+
+#featured-services i {
+  color: #18d26e;
+  font-size: 48px;
+  display: inline-block;
+  line-height: 1;
+}
+
+#featured-services h4 {
+  font-weight: 400;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+#featured-services h4 a {
+  color: #fff;
+}
+
+#featured-services h4 a:hover {
+  color: #18d26e;
+}
+
+#featured-services p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* BIZPage-Services Section
+--------------------------------*/
+
+#why-services {
+  background: #fff;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+}
+
+#why-services .box {
+  margin-bottom: 30px;
+}
+
+#why-services .icon {
+  float: left;
+}
+
+#why-services .icon i {
+  color: #18d26e;
+  font-size: 36px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+#why-services .title {
+  margin-left: 60px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#why-services .title a {
+  color: #111;
+}
+
+#why-services .box:hover .title a {
+  color: #18d26e;
+}
+
+#why-services .description {
+  font-size: 14px;
+  margin-left: 60px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+
 /* Portfolio Section
 --------------------------------*/
 
@@ -1008,6 +1140,7 @@ h6 {
   width: 36px;
   height: 36px;
   background: #1bb1dc;
+  background: #fff;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -1030,7 +1163,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #282646;
+  /*background: #282646;*/
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
@@ -1538,9 +1671,15 @@ h6 {
   padding-left: 15px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em;
-  line-height: 1.6875em;
+  /*line-height: 1.6875em;*/
+  line-height: 1.2em;
   font-weight: 400;
   color: #959595;
+}
+#course .course-content ul li {
+
+  line-height: 1em;
+  font-weight:300;
 }
 
 /*
