@@ -673,7 +673,9 @@ h6 {
 
 
 #whycoding i {
-  color: #18d26e;
+  /*color: #18d26e;*/
+  /*color: #ff8a47;*/
+  color: #eb8b2e;
   font-size: 48px;
   display: inline-block;
   line-height: 1;
@@ -986,7 +988,7 @@ h6 {
 --------------------------------*/
 
 #why-services {
-  background: #fff;
+  /*background: #fff;*/
   background-size: cover;
   padding: 60px 0 40px 0;
 }
@@ -1000,7 +1002,8 @@ h6 {
 }
 
 #why-services .icon i {
-  color: #18d26e;
+  /*color: #18d26e;*/
+  color: #ff8a47;
   font-size: 36px;
   line-height: 1;
   transition: 0.5s;
@@ -1018,7 +1021,8 @@ h6 {
 }
 
 #why-services .box:hover .title a {
-  color: #18d26e;
+  /*color: #18d26e;*/
+  color: #ff8a47;
 }
 
 #why-services .description {
@@ -1934,7 +1938,8 @@ h6 {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f5f8fd;
+  /*background: #f5f8fd;*/
+  background: #006fab;
 }
 
 #footer .footer-top .footer-info {
@@ -1947,7 +1952,8 @@ h6 {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #413e66;
+  /*color: #413e66;*/
+  color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1958,7 +1964,8 @@ h6 {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #535074;
+  /*color: #535074;*/
+  color: #fff;
 }
 
 #footer .footer-top .social-links a {
@@ -1984,7 +1991,8 @@ h6 {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #413e66;
+  /*color: #413e66;*/
+  color: #fff;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -2009,7 +2017,9 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #696592;
+
+  /*color: #696592;*/
+  color: #fff;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -2304,50 +2314,63 @@ html {
   align-items: stretch;
   flex-flow: row wrap;
   /*box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);*/
-
+/*
   background: #ddf0fc;
-  background-size: cover;
+  background-size: cover;*/
   /*max-width: 1200px;*/
   padding: 40px 0;
 
 }
 
-#btns .btn {
+#btns span {
+  color: darkorange;
+}
+
+#btns .row {
+/*  width: 80%;*/
+}
+#btns .square {
   position: relative;
   padding: 10px 20px 25px;
   width: 20%;
   background: #111;
+
   font-family: lato;
   cursor: pointer;
   box-sizing: border-box;
 }
 
 /* Button Backgrounds */
-#btns .btn:nth-child(1) {
+#btns .square:nth-child(1) {
   background: #117ec3;
+  /*background: #1bb1dc;*/
 }
 
-#btns .btn:nth-child(2) {
+#btns .square:nth-child(2) {
   background: #1491e1;
+  /*background: steelblue;*/
 }
 
-#btns .btn:nth-child(3) {
+#btns .square:nth-child(3) {
   background: #2ba1eb;
+  /*background: #1bb1dc;*/
 }
 
-#btns .btn:nth-child(4) {
+#btns .square:nth-child(4) {
   background: #49afef;
+  /*background: #5FC5E1;*/
 }
 
-#btns .btn:nth-child(5) {
+#btns .square:nth-child(5) {
   background: #49afff;
+  /*background: #1bb1dc;*/
 }
 
 /* Arrows */
-#btns .btn:nth-child(1):after,
-#btns .btn:nth-child(2):after,
-#btns .btn:nth-child(3):after,
-#btns .btn:nth-child(4):after {
+#btns .square:nth-child(1):after,
+#btns .square:nth-child(2):after,
+#btns .square:nth-child(3):after,
+#btns .square:nth-child(4):after {
   position: absolute;
   top: 45%;
   right: -18px;
@@ -2359,44 +2382,55 @@ html {
   transition: all .3s ease-in-out;
 }
 
-#btns .btn:nth-child(2):after {
+#btns .square:nth-child(2):after {
   border-left: 20px solid #1491e1;
 }
 
-#btns .btn:nth-child(3):after {
+#btns .square:nth-child(3):after {
   border-left: 20px solid #2ba1eb;
 }
 
-#btns .btn:nth-child(4):after {
+#btns .square:nth-child(4):after {
   border-left: 20px solid #49afef;
 }
 /* Icon */
-#btns .btn .icon {
+#btns .square .icon {
   display: block;
-  margin: 10px auto;
+  /*margin: 10px auto;*/
+  text-align: center;
+  line-height: 2;
+  /*
   width: 80px;
-  height: 80px;
+  height: 80px;*/
+  /*
   -webkit-transform-origin: center;
           transform-origin: center;
   -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+          transform: scale(0.9);*/
   color: #fff;
 }
-
-#btns .btn .icon svg {
+/*
+#btns .square .icon svg {
   fill: currentColor;
 }
 
-#btns .btn .icon path {
+#btns .square .icon path {
   fill: currentColor;
 }
 
-#btns .btn .icon {
+#btns .square .icon {
   fill: currentColor;
+}
+*/
+#btns i {
+  color: #eb8b2e;
+  font-size: 48px;
+  display: inline-block;
+  line-height: 1;
 }
 
 /* Text Styles */
-#btns .btn h2 {
+#btns .square h2 {
   margin-bottom: 15px;
   text-align: center;
   color: #fff;
@@ -2406,7 +2440,7 @@ html {
   font-weight: 400;
 }
 
-#btns .btn p {
+#btns .square p {
   color: #fff;
   text-align: center;
   font-size: 1em;
@@ -2415,45 +2449,80 @@ html {
 }
 
 /* Hover Effects */
-#btns .btn:hover {
-  background: #0b6ca9;
+#btns .square:nth-child(1):hover {
+  /*background: #0b6ca9;*/
+  background: #d91161;
 }
 
-#btns .btn:hover:after {
-  border-left: 20px solid #0b6ca9;
+#btns .square:nth-child(1):hover:after {
+  border-left: 20px solid #d91161;
 }
 
-#btns .btn:hover .icon {
-  -webkit-transform-origin: center;
+#btns .square:nth-child(2):hover {
+  /*background: #0b6ca9;*/
+  background: #912a7d;
+}
+
+#btns .square:nth-child(2):hover:after {
+  border-left: 20px solid #912a7d;
+}
+
+#btns .square:nth-child(3):hover {
+  /*background: #0b6ca9;*/
+  background: #9EC83D;
+}
+
+#btns .square:nth-child(3):hover:after {
+  border-left: 20px solid #9EC83D;
+}
+#btns .square:nth-child(4):hover {
+  /*background: #0b6ca9;*/
+  background: #EB8B2E;
+}
+
+#btns .square:nth-child(4):hover:after {
+  border-left: 20px solid #EB8B2E;
+}
+#btns .square:nth-child(5):hover {
+  /*background: #0b6ca9;*/
+  background: #F5BD33;
+}
+
+#btns .square:nth-child(5):hover:after {
+  border-left: 20px solid #F5BD33;
+}
+
+#btns .square:hover .icon {
+  /*-webkit-transform-origin: center;
           transform-origin: center;
   -webkit-transform: scale(1);
-          transform: scale(1);
-  color: #fff;
+          transform: scale(1);*/
+/*  color: #fff;*/
 }
 
-#btns .btn:hover h2 {
+#btns .square:hover h2 {
   color: #fff;
 }
 
 /* Media Queries */
 @media all and (max-width: 950px) and (min-width: 701px) {
-  .btn {
+  .square {
     width: 50%;
   }
 
-  .btn:nth-child(2):after {
+  .square:nth-child(2):after {
     border-left: 0px;
   }
 }
 @media all and (max-width: 700px) and (min-width: 0px) {
-  .btn {
+  .square {
     display: block;
     width: 100%;
   }
 
-  .btn:nth-child(1):after,
-  .btn:nth-child(2):after,
-  .btn:nth-child(3):after {
+  .square:nth-child(1):after,
+  .square:nth-child(2):after,
+  .square:nth-child(3):after {
     border-left: 0px;
   }
 }
