@@ -42,7 +42,7 @@ h4,
 h5,
 h6 {
 	/*font-family: 'Noto Sans TC', sans-serif;*/
-  font-family: "Montserrat", sans-serif;
+  font-family: "Microsoft JhengHei","Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -239,7 +239,7 @@ h6 {
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Microsoft JhengHei","Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
@@ -542,7 +542,7 @@ h6 {
 #lead h2 {
   text-align: center;
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Microsoft JhengHei","Montserrat", sans-serif;
   font-weight: 400;
 }
 #lead h3 {
@@ -1011,10 +1011,11 @@ h6 {
 
 #why-services .title {
   margin-left: 60px;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 15px;
   font-size: 18px;
 }
+
 
 #why-services .title a {
   color: #111;
@@ -1953,7 +1954,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  /*font-family: "Montserrat", sans-serif;*/
   /*color: #413e66;*/
   color: #fff;
   font-weight: 400;
