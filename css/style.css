@@ -316,10 +316,10 @@ h6 {
   color: #413e66;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
   /*font-family: "Open Sans", sans-serif;*/
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .main-nav a:hover,
@@ -696,10 +696,11 @@ h6 {
 }
 
 #whycoding p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #413166;
   margin-bottom: 0;
+  font-weight: 200;
 }
 
 /* ==================================================
@@ -1621,7 +1622,7 @@ h6 {
   font-weight: 700;
   */
   position: relative;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
   font-size: 1.5em;
   font-weight: 300;
   text-transform: uppercase;
@@ -1639,7 +1640,7 @@ h6 {
 }
 #course .course-content h3 {
   position: relative;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
   font-size: 1em;
   font-weight: 300;
   text-transform: uppercase;
@@ -1664,7 +1665,7 @@ h6 {
   position: relative;
   z-index: 1;
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Ubuntu', sans-serif;*/
   font-size: 1.25em;
   line-height: 2.5em;
   font-weight: 300;
@@ -1674,7 +1675,8 @@ h6 {
   content: "";
   position: absolute;
   z-index: -1;
-  background-color: #e2cef9;
+  /*background-color: #e2cef9;*/
+  background-color: paleTurquoise;
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
@@ -1684,11 +1686,11 @@ h6 {
 }
 #course .course-content ul li p {
   padding-left: 15px;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
   font-size: 1.1em;
   /*line-height: 1.6875em;*/
   line-height: 1.2em;
-  font-weight: 400;
+  font-weight: 300;
   color: #959595;
 }
 #course .course-content ul li {
@@ -1954,7 +1956,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  /*font-family: "Montserrat", sans-serif;*/
+  font-family: "Montserrat", sans-serif;
   /*color: #413e66;*/
   color: #fff;
   font-weight: 400;
@@ -1964,6 +1966,7 @@ h6 {
 
 #footer .footer-top .footer-info p {
   font-size: 13px;
+  
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
@@ -1992,7 +1995,7 @@ h6 {
 }
 
 #footer .footer-top h4 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   /*color: #413e66;*/
   color: #fff;
@@ -2006,6 +2009,8 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul {
+
+  font-weight:200;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -2338,7 +2343,7 @@ html {
   width: 20%;
   background: #111;
 
-  font-family: lato;
+  /*font-family: lato;*/
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -2437,7 +2442,7 @@ html {
   margin-bottom: 15px;
   text-align: center;
   color: #fff;
-  font-family: raleway;
+  /*font-family: raleway;*/
   font-size: 1.4em;
   line-height: 1em;
   font-weight: 400;
