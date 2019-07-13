@@ -240,8 +240,8 @@ h6 {
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
   font-family: "Microsoft JhengHei","Montserrat", sans-serif;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
@@ -1420,7 +1420,7 @@ h6 {
 
 #clients img {
   max-width: 80%;
-
+  vertical-align: text-bottom;
   opacity: 0.5;
   transition: 0.3s;
   padding: 15px 0;
@@ -2027,7 +2027,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 8px 0;
+  padding: 2px 0;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
