@@ -1269,7 +1269,9 @@ h6 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  align-items:baseline;
   position: absolute;
+
   bottom: 0;
   left: 0;
   right: 0;
@@ -1280,7 +1282,7 @@ h6 {
 
 #team .member .member-info-content {
   transition: margin 0.2s;
-  height: 40px;
+  height: 20px;
   transition: height 0.4s;
 }
 
@@ -1289,7 +1291,7 @@ h6 {
 }
 
 #team .member:hover .member-info-content {
-  height: 80px;
+  height: 60px;
 }
 
 #team .member h4 {
@@ -1301,6 +1303,7 @@ h6 {
 
 #team .member span {
   font-style: italic;
+  line-height: 3;
   display: block;
   font-size: 13px;
   color: #fff;
