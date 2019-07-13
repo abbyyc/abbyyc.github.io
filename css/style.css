@@ -1276,7 +1276,7 @@ h6 {
   left: 0;
   right: 0;
   transition: 0.2s;
-  padding: 15px 0;
+  padding: 10px 0;
   background: rgba(29, 28, 41, 0.6);
 }
 
@@ -1291,7 +1291,7 @@ h6 {
 }
 
 #team .member:hover .member-info-content {
-  height: 60px;
+  height: 40px;
 }
 
 #team .member h4 {
@@ -1303,7 +1303,7 @@ h6 {
 
 #team .member span {
   font-style: italic;
-  line-height: 3;
+  line-height: 2;
   display: block;
   font-size: 13px;
   color: #fff;
