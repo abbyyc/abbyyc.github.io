@@ -1635,7 +1635,8 @@ h6 {
   left: 0;
   right: 0;
   bottom: -10px;
-  border-bottom: 3px solid #e2cef9;
+  /*border-bottom: 3px solid #e2cef9;paleTurquoise*/
+  border-bottom: 3px solid paleTurquoise: ;
   width: 30px;
 }
 #course .course-content h3 {
@@ -1697,6 +1698,12 @@ h6 {
 
   line-height: 1em;
   font-weight:300;
+}
+
+#course .course-content ol  {
+
+  padding-top: 15px;
+  font-size: 16px;
 }
 
 /*
@@ -1966,7 +1973,7 @@ h6 {
 
 #footer .footer-top .footer-info p {
   font-size: 13px;
-  
+
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
