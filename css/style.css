@@ -72,6 +72,11 @@ h6 {
   color: #fff;
 }
 
+.home-section {
+	width: 100%;
+	padding: 150px 0px 150px 0px;
+}
+
 /* Prelaoder */
 
 #preloader {
@@ -525,6 +530,7 @@ h6 {
   color: #535074;
   width: 50%;
 }
+
 
 /* Section with background
 --------------------------------*/
@@ -1939,33 +1945,189 @@ h6 {
   left: 50%;
   top: calc(50% - 3px);
 }
+/*--------------------------------------------------------------
+# Schedule Section
+--------------------------------------------------------------*/
 
+#schedule {
+  padding: 60px 0 60px 0;
+}
+/*
+#schedule .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#schedule .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#schedule .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+}
+
+#schedule .nav-tabs a.active {
+  background-color: #f82249;
+  color: #fff;
+}
+*/
+#schedule .sub-heading {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  /*font-style: italic;*/
+
+  color: #F95E08;
+  margin: 0 auto 30px auto;
+}
+
+#schedule .tab-pane {
+  transition: ease-in-out .2s;
+}
+
+#schedule .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+#schedule .page-header {
+  color: #0E6880;
+  font-weight: 600;
+}
+
+#schedule .section-header h2 i {
+  color: #0E6880;
+}
+
+
+#schedule .schedule-item:hover {
+  background-color: #fff;
+}
+
+#schedule .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#schedule .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+
+
+#schedule .schedule-item h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#schedule .schedule-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#schedule .schedule-item p {
+  font-size: 14px;
+  /*font-style: italic;*/
+  /*color: #152b79;*/
+  margin-bottom: 0;
+}
+
+#enroll {
+  padding: 0px 0 60px 0;
+}
+
+#enroll .enroll-info {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  background: #f5f8fd;
+
+
+}
+#enroll .enroll-detail {
+  padding: 20px 0;
+  
+}
+
+#enroll .btn-bg {
+  margin: auto;
+  text-align: center;
+
+}
+#enroll .btn-get-enroll {
+/*
+  font-family: "Microsoft JhengHei","Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+
+  background: #fff;
+  color: #000;
+*/
+padding: 60px 0;
+text-transform: uppercase;
+font-size: 13px;
+font-weight: 500;
+color: #5f5b96;
+border-radius: 0;
+padding: 10px 24px;
+letter-spacing: 1px;
+border-radius: 3px;
+display: inline-block;
+background: #1bb1dc;
+color: #fff;
+
+}
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
 #footer {
-  padding: 0 0 30px 0;
+  padding: 0 0 20px 0;
   font-size: 14px;
   background: #fff;
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 40px 0 20px 0;
   /*background: #f5f8fd;*/
   background: #006fab;
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 34px;
-  margin: 0 0 20px 0;
+  font-size: 30px;
+  margin: 0 0 10px 0;
   padding: 2px 0 2px 0;
-  line-height: 1;
+  line-height: 46px;
   font-family: "Montserrat", sans-serif;
   /*color: #413e66;*/
   color: #fff;
@@ -1975,14 +2137,26 @@ h6 {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 13px;
+  font-size: 14px;
 
   line-height: 24px;
   margin-bottom: 0;
+  padding-bottom: 10px;
   font-family: "Montserrat", sans-serif;
   /*color: #535074;*/
   color: #fff;
 }
+
+#footer .footer-info i {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  line-height: 46px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
 
 #footer .footer-top .social-links a {
   font-size: 18px;
@@ -2178,13 +2352,34 @@ h6 {
 }
 
 #footer .credits a {
-  color: #1bb1dc;
+  color: #8582a8;
 }
 
 #footer .credits a:hover {
-  color: #0a98c0;
+  /*color: #0a98c0;*/
 }
 
+
+.single-icon i {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #444;
+  line-height: 46px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.single-icon p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.contact-icon {
+  margin-bottom: 40px;
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/

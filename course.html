@@ -26,54 +26,36 @@
   <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-    Theme Name: Rapid
-    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body>
   <!--==========================
   Header
   ============================-->
-  <header id="header" class="header-pages">
-
-    <div id="topbar">
-      <div class="container">
-        <div class="social-links">
-          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-
+  <header id="header">
     <div class="container">
 
       <div class="logo float-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!--<h1 class="text-light"><a href="#intro" class="scrollto"><span>Rapid</span></a></h1>-->
         <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
-        <nav class="main-nav float-right d-none d-lg-block">
-          <ul>
-            <li class="active"><a href="index_full0.html#intro">首頁</a></li>
-            <li><a href="about.html">關於我們</a></li>
-            <li><a href="index_full0.html#services">課程資訊</a></li>
-            <li><a href="index_full0.html#portfolio">自學資源</a></li>
-            <li><a href="index_full0.html#team">專欄</a></li>
-            <li><a href="index_full0.html#footer">聯絡我們</a></li>
-            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-          </ul>
-        </nav><!-- .main-nav -->
-      </nav><!-- .main-nav -->
-
+        <ul>
+          <li class="active"><a href="index_full0.html#intro">首頁</a></li>
+          <li><a href="about.html">關於我們</a></li>
+          <li class="drop-down"><a href="#services">核心課程</a>
+            <ul>
+              <li><a href="course.html">Python 初階班</a></li>
+              <li><a href="">Python 中階班</a></li>
+              <li><a href="">micro:bit 實作班</a></li>
+            </ul>
+          </li>
+          <li><a href="resource.html">自學資源</a></li>
+          <li><a href="#team">專欄</a></li>
+          <li><a href="#footer">聯絡我們</a></li>
+          <li><a href="https://www.facebook.com/codinglabTW"><i class="fa fa-facebook"></i></a></li>
+        </ul>
+      </nav>
     </div>
   </header><!-- #header -->
 
@@ -200,17 +182,10 @@
     <!--==========================
       About Us Section
     ============================-->
+    <!--
     <section id="course">
-
       <div class="container">
         <div class="row">
-          <!--
-          <div class="col-lg-6 col-md-6">
-            <div class="about-img">
-              <img src="img/about-img.jpg" alt="">
-            </div>
-          </div>
-        -->
           <div class="col-lg-12 course-content">
             <h2><i class="icon ion-logo-python"></i>python 基礎班</h2>
             <h3>培養程式設計基礎</h3>
@@ -225,32 +200,32 @@
               <ol>
                 <li>    Python介紹
                   <ul class="course-details">
-                    <li><i class="icon ion-ios-checkmark-circle"></i>    學習安裝及執行Python、基本語法及變數</li>
-                    <li><i class="icon ion-ios-checkmark-circle"></i>    數值資料型態及算術運算子</li>
-                    <li><i class="icon ion-ios-checkmark-circle"></i>    面積計算、BMI計算機、(挑戰) 雞兔同籠</li>
+                    <li>學習安裝及執行Python、基本語法及變數</li>
+                    <li>數值資料型態及算術運算子</li>
+                    <li>面積計算、BMI計算機、(挑戰) 雞兔同籠</li>
                   </ul>
                 </li>
-                <li><i class="ion-android-checkmark-circle"></i> 條件控制及判斷式
+                <li> 條件控制及判斷式
                   <ul class="course-details">
                     <li>學習布林和條件式</li>
                     <li>邏輯運算子和真值表</li>
                     <li>尋找最佳電信資費方案、(挑戰)一元二次方程式</li>
                   </ul>
                 </li>
-                <li><i class="ion-android-checkmark-circle"></i> while迴圈介紹與應用
+                <li> while迴圈介紹與應用
                   <ul class="course-details">
                     <li>while 迴圈運作原理介紹</li>
                     <li>擲骰子遊戲、質數產生器、(挑戰)費氏級數</li>
                   </ul>
                 </li>
-                <li><i class="ion-android-checkmark-circle"></i> 函式
+                <li> 函式
                   <ul class="course-deatils">
                     <li>定義自己的函數</li>
                     <li>將程式碼模組化</li>
                   </ul>
                 </li>
 
-                <li><i class="ion-android-checkmark-circle"></i> 模組
+                <li> 模組
                   <ul>
                     <li>亂數模組產生器</li>
                     <li>投擲硬幣遊戲、黑客松 & 限時挑戰</li>
@@ -265,14 +240,14 @@
 
               <ul>
                 <li>
-                  <h3><span>課程資訊</span></h3>
+                  <h3><span>開課時間及地點</span></h3>
                 </li>
               </ul>
               <ul>
-                <li><i class="icon ion-md-checkmark-circle-outline"></i>    適合初學者，建議年齡10歲以上</li>
-                <li><i class="icon ion-md-checkmark-circle-outline"></i>     每期5堂課，共計五周</li>
-                <li><i class="icon ion-md-checkmark-circle-outline"></i>     每堂課2小時</li>
-                <li><i class="icon ion-md-checkmark-circle-outline"></i>     需自備電腦</li>
+                <li>適合初學者，建議年齡10歲以上</li>
+                <li>每期5堂課，共計五周</li>
+                <li>每堂課2小時</li>
+                <li>需自備電腦</li>
 
               </ul>
 
@@ -292,10 +267,12 @@
 
             </div>
           </div>
-        </div><!--row-->
+        </div>
       </div>
 
-    </section><!-- #about -->
+    </section>-->
+
+    <!-- #about -->
 
 
 
@@ -303,6 +280,7 @@
     <!--==========================
       Call To Action Section
     ============================-->
+    <!--
     <section id="call-to-action" class="wow fadeInUp">
       <div class="container">
         <div class="row">
@@ -316,102 +294,226 @@
         </div>
 
       </div>
-    </section><!-- #call-to-action -->
+    </section>-->
+    <!-- #call-to-action -->
 
 
-
-
-
-  </main>
-
-  <!--==========================
-    Footer
-  ============================-->
-  <footer id="footer" class="section-bg">
-    <div class="footer-top">
+    <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="schedule" class="section-with-bg">
       <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-4">
-
-            <div class="row">
-
-                <!--<div class="col-sm-6">-->
-
-                  <div class="footer-info">
-                    <h3>CodingLab</h3>
-                    <p>釋放孩子的創造力 Let's coding!</p>
-                  </div>
-
-                  <div class="social-links">
-                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-                  </div>
-<!--
-                  <div class="footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
-                    <form action="" method="post">
-                      <input type="email" name="email"><input type="submit"  value="Subscribe">
-                    </form>
-                  </div>
--->
-
-
-
-
-                <!--</div>-->
-<!--
-                <div class="col-sm-6">
-                  <div class="footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About us</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#">Terms of service</a></li>
-                      <li><a href="#">Privacy policy</a></li>
-                    </ul>
-                  </div>
-                </div>-->
-            </div>
+        <div class="row justify-content-center ">
+          <div class="col-lg-9 section-header ">
+            <h2 class="page-header"><i class="icon ion-logo-python"></i> Python 基礎班</h2>
+            <p></p>
           </div>
+        </div>
+        <h3 class="sub-heading">在五週的課程，輕鬆上手學會 Python 基礎課程。</h3>
 
-          <div class="col-lg-4 text-center">
-            <div class="footer-links">
-              <h4>網站連結</h4>
+        <div class="row justify-content-center">
+
+          <!-- Schdule Day 1 -->
+          <div class="col-lg-9 fade show active">
+
+            <div class="row schedule-item">
+              <div class="col-md-2">Week 1</div>
+              <div class="col-md-4">
+                <h4>Python介紹</h4>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  學習安裝及執行Python、基本語法及變數<br>
+                  數值資料型態及算術運算子<br>
+                  面積計算、BMI計算機、(挑戰) 雞兔同籠
+                </p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Week 2</time></div>
+              <div class="col-md-4">
+                <h4>條件控制及判斷式</h4>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  學習布林和條件式<br>
+                  邏輯運算子和真值表<br>
+                  尋找最佳電信資費方案、(挑戰)一元二次方程式
+                </p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Week 3</time></div>
+              <div class="col-md-4">
+                <h4>while迴圈介紹與應用</h4>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  while 迴圈運作原理介紹<br>
+                  擲骰子遊戲、質數產生器、(挑戰)費氏級數
+                </p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Week 4</time></div>
+              <div class="col-md-4">
+                <h4>函式</h4>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  定義自己的函數<br>
+                  將程式碼模組化
+                </p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Week 5</time></div>
+              <div class="col-md-4">
+                <h4>模組</h4>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  亂數模組產生器<br>
+                  投擲硬幣遊戲、黑客松 & 限時挑戰
+                </p>
+              </div>
+            </div>
+          <!-- End Schdule Day 1 -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="enroll" >
+    <div class="container">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-lg-9">
+          <div class="row enroll-info">
+            <div class="col-lg-8 enroll-detail">
               <ul>
-                <li><a href="index_full0.html"> 首頁 </a></li>
-                <li><a href="about.html">關於我們</a></li>
-                <li><a href="index_full0.html#service">課程資訊</a></li>
-                <li><a href="#">自學資源</a></li>
-                <li><a href="#">專欄</a></li>
-                <!--<li><a href="#">與我們聯絡</a></li>-->
+                <li>共五堂課，每堂課2小時</li>
+                <li>週日 09:30 AM ~ 11:30 AM</li>
+                <li>大安教室A (台北市大安區信義路二段222號6樓)</li>
+                <li>原價 $6,600，早鳥優惠$6,000，團報另有優惠</li>
+                <li>報名成功後，系統將發送電子郵件通知您繳費方式。<br>若有任何問題，歡迎透過 LINE 搜尋 <strong>@codinglab</strong> 與我們聯絡。</li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 text-center btn-bg ">
+              <a href="course.html" class="btn-get-enroll">立刻報名
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule" class="section-bg">
+    <div class="container">
+      <h2 class="sub-heading">課程相關資訊</h2>
+      <div class="tab-content row justify-content-center">
+
+        <div class="col-lg-9 tab-pane fade show active">
+          <div class="row ">
+            <div class="col-md-2 text-right">適合對象：</div>
+            <div class="col-md-10">
+              <ul>
+                <li>國小五年級(含)以上，對程式設計有濃厚興趣</li>
+                <li>學員不需具備任何程式語言基礎，只需有基本中英文打字能力</li>
               </ul>
             </div>
           </div>
 
-          <div class="col-lg-4 text-center">
-           <div class="footer-info">
-            <h4>Contact Us</h4>
-            <p>
-              123 台北市信義區 <br>
-              忠孝東路xx巷xx號<br>
-              <br>
-              <strong>Phone:</strong> +886 912 345678<br>
-              <strong>Email:</strong> info@codinglab.tw<br>
-            </p>
-           </div>
-
+          <div class="row">
+            <div class="col-md-2 text-right">課前準備：</div>
+            <div class="col-md-10">
+              <ul>
+                <li>需自備至少有一個USB port，並可透過 Chrome 瀏覽器連上網的筆記型電腦</li>
+                <li>作業系統為 64位元之Windows版本，或Mac OS 10.12(Sierra)以上之64位元作業系統</li>
+                <li>學員不需具備任何程式語言的基礎，只需有中英文打字能力</li>
+              </ul>
+            </div>
           </div>
 
-
-
+          <div class="row">
+            <div class="col-md-2 text-right">注意事項​：</div>
+            <div class="col-md-10">
+              <ul>
+                <li>已繳費因故無法參加課程者，依台北市補習班管理辦法辦理退費</li>
+                <li>為提供更完善的學習品質，主辦單位將保留活動及場地調整的權利</li>
+                <li>為保護個人隱私，課程中所拍攝之照片及影片，僅作為課程及相關活動推廣之用，若您不同意可主動告知。</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        </div>
+      </div>
+    </section>
 
+
+  </main>
+
+  <!-- Footer -->
+
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="footer-info">
+              <h3>CodingLab</h3>
+              <p>釋放孩子的創造力 Let's coding!</p>
+              <p>
+                <a href="http://nav.cx/hrfEJez">
+                  <img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" height="36" border="0"></a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Start contact icon column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="footer-info">
+                <i class="fa fa-mobile"></i>
+                <p>
+                  Call: +886 912 345678
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Start contact icon column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="footer-info">
+                <i class="fa fa-envelope-o"></i>
+                <p>
+                  Email: service@codinglab.tw<br>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Start contact icon column -->
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="contact-icon text-center">
+              <div class="footer-info">
+              <i class="fa fa-map-marker"></i>
+                <p>
+                  台北市忠孝東路三段100號9樓
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -420,16 +522,10 @@
         &copy; Copyright <strong>Coding Lab</strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-        -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer><!-- #footer -->
+  </footer>
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
