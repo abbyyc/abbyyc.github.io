@@ -39,24 +39,10 @@
   <!--==========================
   Header
   ============================-->
-  <header id="header" class="header-pages">
-
-    <div id="topbar">
-      <div class="container">
-        <div class="social-links">
-          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-
+  <header id="header">
     <div class="container">
 
       <div class="logo float-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!--<h1 class="text-light"><a href="#intro" class="scrollto"><span>Rapid</span></a></h1>-->
         <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
@@ -64,14 +50,19 @@
         <ul>
           <li class="active"><a href="index_full0.html#intro">首頁</a></li>
           <li><a href="about.html">關於我們</a></li>
-          <li><a href="index_full0.html#services">課程資訊</a></li>
-          <li><a href="index_full0.html#portfolio">自學資源</a></li>
-          <li><a href="index_full0.html#team">專欄</a></li>
-          <li><a href="index_full0.html#footer">聯絡我們</a></li>
-          <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+          <li class="drop-down"><a href="#services">核心課程</a>
+            <ul>
+              <li><a href="course.html">Python 初階班</a></li>
+              <li><a href="">Python 中階班</a></li>
+              <li><a href="">micro:bit 實作班</a></li>
+            </ul>
+          </li>
+          <li><a href="resource.html">自學資源</a></li>
+          <li><a href="#team">專欄</a></li>
+          <li><a href="#footer">聯絡我們</a></li>
+          <li><a href="https://www.facebook.com/codinglabTW"><i class="fa fa-facebook"></i></a></li>
         </ul>
-      </nav><!-- .main-nav -->
-
+      </nav>
     </div>
   </header><!-- #header -->
 
@@ -90,6 +81,8 @@
     ============================-->
     <section id="features">
       <div class="container">
+
+        
 <!--
         <div class="row feature-item">
           <div class="col-lg-4 wow fadeInUp">
@@ -108,26 +101,26 @@
 <div class="row justify-content-center">
   <div class="col-lg-9 tab-pane fade show active" >
 
-        <div class="row feature-item mt-5 pt-5">
-          <div class="col-lg-3 wow fadeInUp">
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
             <img src="img/site/site1.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-9 wow fadeInUp pt-5 pt-lg-0">
+          <div class="col-lg-10 wow fadeInUp pt-5 pt-lg-0">
             <h4><a href="https://code.org">code.org </a>  </h4>
-            <h6>(Recommended for Ages 4 to 15)</h6>
+            <span>(Recommended for Ages 4 to 15)</span>
             <p>
-              這是一個非營利性的基金會網站，也是初學者學習編程一個很好的起點，它共享大量有用的線上資源。
+              這是一個非營利性的基金會網站，也是初學者學習程式一個很好的起點，它共享大量有用的線上資源。
             </p>
           </div>
         </div>
 
-        <div class="row feature-item mt-5 pt-5">
-          <div class="col-lg-3 wow fadeInUp">
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
             <img src="img/site/site2.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-9 wow fadeInUp pt-4 pt-lg-0">
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0">
             <h4><a href="https://scratch.mit.edu">Scratch</a></h4>
             <h6>(Recommended for Ages 6 to 12)</h6>
             <p>
@@ -136,11 +129,11 @@
           </div>
         </div>
 
-        <div class="row feature-item mt-3 pt-3">
-          <div class="col-lg-3 wow fadeInUp">
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
             <img src="img/site/site3.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-9 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
             <h4><a href="https://www.khanacademy.org/computing/computer-programming">Khan Academy</a>  </h4>
             <h6>(Recommended for Ages 14+)</h6>
             <p>
@@ -149,11 +142,11 @@
           </div>
         </div>
 
-        <div class="row feature-item mt-3 pt-3">
-          <div class="col-lg-3 wow fadeInUp">
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
             <img src="img/site/site4.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-9 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
             <h4><a href="https://www.codecademy.com">codecademy</a></h4>
             <h6>(Recommended for Ages 14+)</h6>
             <p>
@@ -162,11 +155,11 @@
           </div>
         </div>
 
-        <div class="row feature-item mt-3 pt-3">
-          <div class="col-lg-3 wow fadeInUp">
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
             <img src="img/site/site5.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-9 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
             <h4><a href="https://codecombat.com">code combat</a></h4>
             <h6>(Recommended for Ages 10+)</h6>
             <p>
@@ -175,11 +168,11 @@
           </div>
         </div>
 
-        <div class="row feature-item mt-3 pt-3">
-          <div class="col-lg-3 wow fadeInUp">
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
             <img src="img/site/site6.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-9 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
             <h4><a href="https://www.tynker.com/">Tynker</a></h4>
             <h6>(Recommended for Ages 10+)</h6>
             <p>
@@ -188,18 +181,83 @@
           </div>
         </div>
 
-        <div class="row feature-item mt-3 pt-3">
-          <div class="col-lg-3 wow fadeInUp">
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
             <img src="img/site/site7.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-9 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-            <h4><a href="https://www.tynker.com/">Blockly</a></h4>
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4><a href="https://blockly-games.appspot.com/">Blockly</a></h4>
             <h6>(Recommended for Ages 8+)</h6>
             <p>
              顧名思義，這個網站教授一系列謎題和區塊的編程。 孩子們需要通過拖放來解決難題，以創建一個解決特定問題的故事， 之後，孩子們將可以看到他們的工作成果。
             </p>
           </div>
         </div>
+
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
+            <img src="img/site/site8.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4><a href="https://www.codemoji.com/">CODEMOJI</a></h4>
+            <h6>(Recommended for Ages 6-14)</h6>
+            <p>
+             codemoji.com是一個適合6-14歲的兒童青少 年趣味學習平 臺，孩子可以使用eomji學習程式設計，用emoji表情符號來表示不 同HTML/CSS/JavaScript程式碼塊，來建立網站、動畫或遊戲等等。codemoji想讓孩子學習建立直觀的程式，  避免繁瑣的語法，幫助 兒學習者強化對概念的理解。
+            </p>
+          </div>
+        </div>
+
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
+            <img src="img/site/site9.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4><a href="https://www.codewars.com">Code Wars</a></h4>
+            <h6>(Recommended for Ages 14+)</h6>
+            <p>
+             該網站專為專為較高年紀的青少年設計，提供一個平台，讓學生通過線上挑選真正的挑戰者，可以進行編碼競賽，有多種程式語言可供選擇。
+            </p>
+          </div>
+        </div>
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
+            <img src="img/site/site10.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4><a href="https://www.codeavengers.com/">Code Avengers</a></h4>
+            <h6>(Recommended for Ages 5-15+)</h6>
+            <p>
+             雖然Code Avengers沒有引人注目的圖形，但它確實提供  了一系列免費的介紹性課程，用於構建網頁，應用程序和遊戲，根據身分可以至少有7天的免費試用。
+            </p>
+          </div>
+        </div>
+
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
+            <img src="img/site/site11.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4><a href="https://thimble.mozilla.org/">Thimble</a></h4>
+            <h6>(Recommended for Ages 5-15+)</h6>
+            <p>
+             Mozilla這個網站允許孩子們透過此平台來學習互動式編程，孩子們可以直接編碼並觀察編碼輸出的內容，它也允許建立線上網頁。
+            </p>
+          </div>
+        </div>
+
+        <div class="row feature-item mt-2 pt-2">
+          <div class="col-lg-2 wow fadeInUp">
+            <img src="img/site/site12.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-10 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4><a href="http://www.crunchzilla.com/code-monster">Code Monster</a></h4>
+            <h6>(Recommended for Ages 5-15+)</h6>
+            <p>
+             Code Monster特別適合兒童學習，利用相鄰兩個區塊， 一個顯示程式碼，另一個顯示結果。 當孩子使用程式碼時(在每一個提示的幫助下)，將 了解每個命令的作用。
+            </p>
+          </div>
+        </div>
+</div>
 </div>
 </div>
       </div>
@@ -232,7 +290,7 @@
               <div class="footer-info">
                 <i class="fa fa-mobile"></i>
                 <p>
-                  Call: +886 912 345678
+                  Call: 0900-676-365
                 </p>
               </div>
             </div>

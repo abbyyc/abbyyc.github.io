@@ -174,6 +174,10 @@ h6 {
   ransition: all 0.5s;
   z-index: 997;
   /*overflow: hidden;*/
+  height: 70px;
+  padding: 15px 0;
+  background-color: rgba(255,255,255, 0.5);
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
 #header.header-scrolled,
@@ -224,7 +228,7 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background: #f5f8fd url("../img/intro-bg3.jpg") center top no-repeat;
   background-size: cover;
   transition: all 0.7s ease-out;
 }
@@ -2065,7 +2069,7 @@ h6 {
 }
 #enroll .enroll-detail {
   padding: 20px 0;
-  
+
 }
 
 #enroll .btn-bg {
@@ -2403,7 +2407,7 @@ color: #fff;
 
 @media (min-width: 992px) {
   #intro .intro-info {
-    padding-top: 80px;
+    padding-top: 220px;
   }
 
   #testimonials .testimonial-item p {
