@@ -281,19 +281,30 @@ h6 {
   background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
 */
+
   width: 100%;
   height: 30vh;
   margin-top: 70px;
+  /*
+  background-image: url("../img/lead-bg.jpg") ;
   background: #26bfbf;
 
   background: -webkit-linear-gradient(to right, #218da6, #baf2e8);
   background:    -moz-linear-gradient(to right, #218da6, #baf2e8);
   background:         linear-gradient(to right, #218da6, #baf2e8);
-
+*/
   /*padding: 44px 0 22px 0;*/
   padding: 80px 0;
 }
 
+.lead-bg { position: relative; z-index: 1; height: 100%; padding: 0 20px; background-size: cover;
+  background-position: bottom;
+	box-shadow: 2px 5px 30px rgba(0,0,0,.3); color: #fff; }
+
+.lead-bg:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;
+	opacity: .9;
+  background: linear-gradient(-9deg, #baf2e8 0%, #218da6 40%, #218da6 100%);
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -2004,7 +2015,7 @@ h6 {
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
 }
-#schedule .page-header {
+ .page-header {
   color: #0E6880;
   font-weight: 600;
 }
