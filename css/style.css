@@ -901,16 +901,9 @@ h6 {
   color: #8a87b6;
 }
 
-
-/* test why python */
-
-
-
-
-
-
-
-/* end test why python */
+.why-us-img img {
+  margin-top: 30px;
+}
 
 
 /* Call To Action Section
@@ -2679,6 +2672,12 @@ color: #fff;
   #intro {
     height: auto;
     padding: 80px 0 60px 0;
+    width: 100%;
+
+    position: relative;
+    background: #f5f8fd url("../img/intro-bg-s.jpg") right top no-repeat;
+    background-size: cover;
+
   }
 
   #intro .container {
@@ -2730,6 +2729,9 @@ color: #fff;
 }
 
 @media (max-width: 574px) {
+
+
+
   #footer .footer-top .social-links a {
     margin-bottom: 25px;
   }
